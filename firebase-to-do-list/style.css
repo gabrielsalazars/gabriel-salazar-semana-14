@@ -1,0 +1,21 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+h1, h2{
+  text-align: center;
+}
+
+section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 300px;
+}
+
+li{
+  cursor: pointer;
+}
